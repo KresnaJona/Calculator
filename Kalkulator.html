@@ -1,0 +1,62 @@
+<html>
+	<head>
+		
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+		<title>Tugas Calculator</title>
+	</head>
+	<body>
+		<div class="border border-secondary border-4 rounded w-25 p-3 bg-dark text-white position-absolute top-50 start-50 translate-middle " id="calculator">
+			<h1>Calculator </h1>
+				<div id="result">
+					
+					<div id="output">
+						<div class="value border border-secondary border-4 rounded p-3 bg-dark text-white w-100 h-25">0</div>
+						
+					</div>
+				</div>
+				<table id="table" class="border border-secondary border-4 w-100 p-3 bg-dark text-white ">
+					
+					<tr>
+						<button type="button" class="button function ac btn btn-danger btn-lg w-25" id="clear">AC</button>
+						<button type="button" class="button function pm btn btn-warning btn-lg w-25" id="negative">±</button>
+						<button type="button" class="button function percent btn btn-warning btn-lg w-25" id="%">%</button>
+						<button type="button" class="button operator division btn btn-warning btn-primary btn-lg w-25" id="/">÷</button>
+					</tr>
+					
+					<tr>						
+						<button type="button" class="button number-7 btn btn-secondary  btn-lg w-25" id="7">7</button>
+						<button type="button" class="button number-8 btn btn-secondary  btn-lg w-25" id="8">8</button>
+						<button type="button" class="button number-9 btn btn-secondary  btn-lg w-25" id="9">9</button>
+						<button type="button" class="button operator multiplication btn btn-warning  btn-lg w-25" id="*">&times;</button>
+					</tr>
+
+					<tr>
+						<button type="button" class="button number-4 btn btn-secondary  btn-lg w-25" id="4">4</button>
+						<button type="button" class="button number-5 btn btn-secondary  btn-lg w-25" id="5">5</button>
+						<button type="button" class="button number-6 btn btn-secondary  btn-lg w-25" id="6">6</button>
+						<button type="button" class="button operator subtraction btn  btn-warning btn-lg w-25" id="-">-</button>
+					</tr>
+
+					<tr>
+						<button type="button" class="button number-1 btn btn-secondary  btn-lg w-25" id="1">1</button>
+						<button type="button" class="button number-2 btn btn-secondary  btn-lg w-25" id="2">2</button>
+						<button type="button" class="button number-3 btn btn-secondary  btn-lg w-25" id="3">3</button>
+						<button type="button" class="button operator addition btn btn-warning btn-lg w-25" id="+">+</button>
+					</tr>
+
+					<tr>
+						<button type="button" class="button number-0 btn btn-secondary btn-lg w-25" id="0">0</button>
+						<button type="button" class="button function c btn btn-secondary btn-lg w-25" id="backspace">C</button>
+						<button type="button" class="button decimal btn btn-secondary btn-lg w-25" id="empty">.</button>
+						<button type="button" class="button operator equal btn btn-secondary btn-lg w-25" id="=">=</button>
+					</tr>
+
+				</table>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+	</body>
+</html>
